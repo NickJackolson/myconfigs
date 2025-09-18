@@ -1,0 +1,11 @@
+## USER SPECIFIC CONFIGURATIONS
+# Activate ssh-agent if not active already
+if [ -z $SSH_AUTH_SOCK ]; then
+	eval "$(ssh-agent -s)"
+fi
+
+# Set up fzf
+eval "$(fzf --bash)"
+
+# Aliases
+alias ssh-login="ssh-add $HOME/.ssh/id_ed25519"
