@@ -29,11 +29,18 @@ function install_i3_config()
 	cp $CP_ARGS $ROOT_DIR/i3/config $HOME/.config/i3/
 }
 
+function install_tmux_config()
+{
+	cp $CP_ARGS $ROOT_DIR/tmux/tmux.conf $HOME/.tmux.conf
+}
+
+
 echo "Start config install"
 install_vim_config
 install_git_config
 install_alacritty_config
 install_i3_config
+install_tmux_config
 echo "Installation finished"
 echo "Old configs are backed up"
 

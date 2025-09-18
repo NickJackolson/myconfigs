@@ -4,3 +4,4 @@ The config files I have are listed as below but not limited to;
 * git
 * alacritty
 * i3
+* tmux
