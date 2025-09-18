@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Mete Durlu
+	email = mete.durlu@ibm.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
