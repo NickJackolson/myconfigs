@@ -1,0 +1,6 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/alabaster.toml"
+]
+[window]
+decorations_theme_variant="Light"
