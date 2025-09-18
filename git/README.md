@@ -1,4 +1,4 @@
-#Git config
+# Git config
 
 Installation;
 ```bash
