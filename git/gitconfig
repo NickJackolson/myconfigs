@@ -2,8 +2,11 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Mete Durlu
-	email = mete.durlu@ibm.com
+	email = meted@linux.ibm.com
 [core]
 	editor = nvim
+	abbrev = 12
 [init]
 	defaultBranch = main
+[alias]
+	fixes = show -s --pretty='format:%h (\"%s\")'
