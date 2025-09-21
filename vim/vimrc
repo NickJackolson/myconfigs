@@ -2,7 +2,7 @@ filetype on
 filetype plugin indent on
 
 set number
-set cursorline
+set nocursorline
 
 set linebreak
 set wrap
@@ -17,4 +17,4 @@ set clipboard+=unnamedplus
 set list
 set listchars=eol:⏎,space:·,tab:▸\ ,nbsp:⎵
 
-colorscheme zellner
+colorscheme shine
