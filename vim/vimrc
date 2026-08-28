@@ -1,20 +1,28 @@
 filetype on
-filetype plugin indent on
-
-set number
-set nocursorline
-
-set linebreak
-set wrap
+filetype plugin on
+filetype indent on
 
 syntax on
+
+set wrap
+set number
+set cursorline
 set cc=80
-set tabstop=8
-set autoindent
 
-set clipboard+=unnamedplus
-
-set list
 set listchars=eol:⏎,space:·,tab:▸\ ,nbsp:⎵
+"set tabstop=8
+set laststatus=2
+set statusline=%F
+set statusline+=:\ %c
 
-colorscheme shine
+set path+=**
+set wildmenu
+set wildoptions+=fuzzy
+set wildoptions+=pum
+set wildmode=noselect:longest
+
+colorscheme default
+highlight ColorColumn ctermbg=6
+highlight StatusLine ctermbg=Black ctermfg=White
+highlight WildMenu ctermbg=Black ctermfg=White
+highlight Pmenu ctermbg=Gray ctermfg=White

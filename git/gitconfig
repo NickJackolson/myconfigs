@@ -1,12 +1,10 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Mete Durlu
 	email = meted@linux.ibm.com
 [core]
-	editor = nvim
 	abbrev = 12
-[init]
-	defaultBranch = main
-[alias]
-	fixes = show -s --pretty='format:%h (\"%s\")'
+[pretty]
+	ref = "commit %h ("\"%s"\")"
+[b4]
+	email-exclude = stable@vger.kernel.org
+	email-signature = "--\n Thanks, \n$(git config get user.name) <$(git config get user.email)>"
