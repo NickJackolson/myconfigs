@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04f3", ATTRS{idProduct}=="289b", ATTR{authorized}="0", ATTR{power/control}="auto", ATTR{power/autosuspend_delay_ms}="0"
